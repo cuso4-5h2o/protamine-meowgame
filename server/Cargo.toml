@@ -1,0 +1,17 @@
+[package]
+name = "server"
+version = "1.0.0"
+authors = ["cuso4-5h2o <contact@cuso4.me>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3.3"
+actix-files = "0.5"
+actix-ratelimit = "0.3"
+regex = "1.4"
+rust-crypto = "0.2"
+serde = "1.0"
+log = "0.4"
+simplelog = "0.9"
